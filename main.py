@@ -11,6 +11,6 @@ load_stuff()
 id = st.text_input('Input ID here: ')
 
 if id:
-    os.system('!./salary-seeker ' + str(id) + ' > output.txt')  
+    os.system('!./salary-seeker.sh ' + str(id) + ' > output.txt')  
     st.markdown(id)
     st.markdown('hello world2')
