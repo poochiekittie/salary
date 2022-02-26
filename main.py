@@ -8,4 +8,5 @@ def load_stuff():
     os.system('!chmod u+x *.sh')  
 
 load_stuff()
+id = st.text_area('Input ID here: ')
 st.markdown('hello world2')
